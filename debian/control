@@ -1,0 +1,20 @@
+Source: libtext-testbase-perl
+Section: perl
+Priority: optional
+Maintainer: Jani Hakala <jjhakala@gmail.com>
+Build-Depends: debhelper (>= 9),
+ perl
+Build-Depends-Indep: libclass-accessor-lite-perl (>= 0.05),
+ libtest-requires-perl
+Standards-Version: 3.9.6
+Homepage: https://metacpan.org/release/Text-TestBase
+
+Package: libtext-testbase-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libclass-accessor-lite-perl (>= 0.05),
+ perl (>= 5.13.11)
+Description: Parser for Test::Base format
+ Text::TestBase is a parser for Test::Base format.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
